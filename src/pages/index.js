@@ -1,6 +1,7 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
-export default function Home() {
+
+const Home = () => {
 
 	return (
 		<div className="container">
@@ -208,3 +209,7 @@ export default function Home() {
 		</div>
 	)
 }
+
+
+
+export default Home
